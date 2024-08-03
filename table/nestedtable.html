@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>nestedtable html</title>
+</head>
+<body>
+    <!--nested html table-->
+    <h1>nested html table</h1>
+    <hr>
+    <table style="width: 99%;border: 1px solid #ccc ; margin: 10px;">
+        <caption style="font-weight: bolder;margin: 10px ;font-size: large;">
+            employee information
+        </caption>
+        <!--table head-->
+        <tr>
+            <th style="padding: 10px; border: 1px solid #ccc; text-align: center;background-color: #cdf7e9;">name</th>
+            <th style="padding: 10px; border: 1px solid #ccc; text-align: center;background-color: #cdf7e9;">age</th>
+            <th style="padding: 10px; border: 1px solid #ccc; text-align: center;background-color: #cdf7e9;">gender</th>
+            <th style="padding: 10px; border: 1px solid #ccc; text-align: center;background-color: #cdf7e9;">department</th>
+        </tr>
+        <!--table data-->
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">John Smith</td>
+            <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">34</td>
+            <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">Male</td>
+            <td>
+                <!--nesting table head-->
+                 <table style="width: 100%;border: none;margin: 0;">
+                    <tr>
+                        <th style="padding: 5px;  text-align: center;background-color: #cdf5b3;">department name</th>
+                        <th style="padding: 5px;  text-align: center;background-color: #cdf5b3;">manager</th>
+                        <th style="padding: 5px;  text-align: center;background-color: #cdf5b3;">sales</th>
+                    </tr>
+                    <!--nesting table data-->
+                    <tr>
+                        <td style="padding: 5px;  text-align: center;">Clothing</td>
+                        <td style="padding: 5px;  text-align: center;">Alice Johnson</td>
+                        <td style="padding: 5px;  text-align: center;">$90,000</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 5px;  text-align: center;">Electronics</td>
+                        <td style="padding: 5px;  text-align: center;">John Smith</td>
+                        <td style="padding: 5px;  text-align: center;">$150,000</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- table data 2 -->
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">bob</td>
+            <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">26</td>
+            <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">Male</td>
+            <td>
+                <!--nesting table head 2 -->
+                 <table style="width: 100%;border: none;margin: 0;">
+                    <tr>
+                        <th style="padding: 5px; text-align: center;background-color: #cdf5b3;">department name</th>
+                        <th style="padding: 5px;  text-align: center;background-color: #cdf5b3;">manager</th>
+                        <th style="padding: 5px;  text-align: center;background-color: #cdf5b3;">sales</th>
+                    </tr>
+                    <!--nesting table data 2 -->
+                    <tr>
+                        <td style="padding: 5px;  text-align: center;">Automotive</td>
+                        <td style="padding: 5px;  text-align: center;">Chris Taylor</td>
+                        <td style="padding: 5px;  text-align: center;">$30,000</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 5px;  text-align: center;">Sports </td>
+                        <td style="padding: 5px;  text-align: center;">Jane Johnsons</td>
+                        <td style="padding: 5px;  text-align: center;">$175,000</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
