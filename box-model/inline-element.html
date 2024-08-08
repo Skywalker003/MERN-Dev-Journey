@@ -9,16 +9,33 @@
             background-color: aquamarine;
             color: rgb(0, 130, 244);
             padding-top: 40px;
-            padding-left: 50px;
             padding-bottom: 40px;
+            padding-left: 50px;
             padding-right: 50px;
             margin: 40px;
+        }
+        span{
+            background-color: aquamarine;
+            color: rgb(0, 130, 244);
+            
+            /* top and bottom padding dont work for inline elements
+            padding-top: 40px;
+            padding-bottom: 40px;
+            */
+            padding-left: 50px;
+            padding-right: 50px;
+            
+            /* u can use css property to change into inline or block element using display*/
+            display: block;
         }
     </style>
 </head>
 <body>
     <div>
         <h2>A MERN stack developer specializes in building web applications using the MERN stack, which comprises MongoDB, Express.js, React.js, and Node.js. This technology stack enables developers to create full-stack applications with a single language, JavaScript, for both server-side and client-side development. MongoDB serves as the database, storing data in a flexible, JSON-like format. Express.js is a back-end web application framework that provides robust features for building APIs. React.js is a powerful front-end library for building user interfaces, offering efficient rendering and state management. Node.js is a runtime environment that allows JavaScript to be executed on the server, facilitating the creation of scalable and high-performance applications. Together, these technologies enable MERN stack developers to efficiently develop, deploy, and maintain modern web applications.</h2>
+    </div>
+    <div>
+        <span> MERN stack developer specializes in building web applications using the MERN stack, which comprises MongoDB, Express.js, React.js, and Node.js.</span>
     </div>
 </body>
 </html>
