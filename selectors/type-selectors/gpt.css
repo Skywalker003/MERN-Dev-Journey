@@ -8,7 +8,7 @@
 /* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background: #e8f5e9;
+    background: #d4fcd0;
     color: #095b02;
     line-height: 1.6;
 }
@@ -38,7 +38,7 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-size: 20px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.9s ease;
 }
 
 .cta-button:hover {

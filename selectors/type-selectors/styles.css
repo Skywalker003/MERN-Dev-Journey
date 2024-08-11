@@ -1,5 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf3KJMC_mLI09kToUMf-X-8nAV3oIE7g6xpg&s') no-repeat center center/cover;
+    padding: 100px 20px;
+}
 h1{
-    color: #10a713;
+    color:  #10a713;
     text-align: center;
     font-size: 60px;
 }
@@ -24,8 +33,13 @@ ul{
     margin-left: 20px;
     color:#095b02;
     font-size: 25px;
+    text-align: center;
 }
 a{
     color: #095b02;
     font-size: 25px;
+}
+footer ul li{
+   
+    display: inline-block;
 }
