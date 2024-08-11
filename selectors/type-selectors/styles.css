@@ -9,6 +9,10 @@ h2{
     font-size: 40px;
     margin-top: 20px;
 }
+h3{
+    color: #10a713;
+    font-size: 30px;
+}
 p{
     color: #218026;
     text-align: center;
@@ -18,8 +22,10 @@ p{
 ul{
     list-style: square;
     margin-left: 20px;
-    color:#095b02
+    color:#095b02;
+    font-size: 25px;
 }
 a{
     color: #095b02;
+    font-size: 25px;
 }
