@@ -1,0 +1,150 @@
+body{
+    font-family: sans-serif;
+}
+/* box model */
+.card{
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 10px auto;
+    width: 260px;
+    border-radius: 14px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+/* positions
+    fixed
+    sticky
+*/
+
+.help-btn{
+    background-color: black;
+    color: white;
+    padding: 16px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 60px;
+    position: fixed;
+    /* margin-bottom: 100px; */
+    right: 60px;
+    bottom: 60px;
+}
+
+.banner{
+    background-color: orangered;
+    border: 1px solid orangered;
+    width: 260px;
+    padding: 10px;
+    border-radius: 14px;
+    margin: 10px auto;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+/* top, left, bottom, and right => distance from that direction */
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.black{
+    background-color: black;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.blue{
+    background-color: royalblue;
+    height: 90px;
+    width: 90px;
+}
+
+
+.parent{
+    background-color: orangered;
+    height: 400px;
+    width: 700px;
+    margin: 60px auto;
+    position: relative;
+}
+.child{
+    background-color: black;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.bg{
+    width: 700px;
+    margin: 60px auto;
+    position: relative;
+}
+.bg-img{
+    width: 100%;
+}
+.content{
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    color: white;
+}
+.btn{
+    background-color: white;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.card-header{
+    position: relative;
+}
+.best{
+    position: absolute;
+    top: 0;
+    margin: 10px;
+    background-color: rgb(255, 246, 232);
+    color: rgb(83, 51, 0);
+    padding: 2px 10px;
+    border-radius: 40px;
+    font-size: 14px;
+}
+.offer{
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    background-color: rgb(205, 255, 215);
+    color: rgb(0, 57, 11);;
+    padding: 2px 10px;
+    border-radius: 40px;
+    font-size: 14px;
+}
+
+
+.profile{
+    width: 600px;
+    margin: 10px auto;
+    position: relative;
+
+}
+.cover{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+}
+.user{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    bottom: -60px;
+    border: 5px solid white;
+}
