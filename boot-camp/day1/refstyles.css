@@ -1,0 +1,97 @@
+/* class name always starts with a dot */
+.title{
+    color: red;
+}
+.center{
+    text-align: center;
+}
+
+/* div
+    1. structure the content
+    2. apply css to all the inner elements in one time
+*/
+
+/* box model
+    border => thickness, style, color
+    padding
+    margin
+*/
+
+.box{
+    border: 1px solid lightgray;
+    width: 300px;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 14px;
+    font-family: sans-serif;
+}
+.box-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.bg{
+    font-family: sans-serif;
+    width: 650px;
+    background-color: orangered;
+    color: white;
+    padding: 110px 50px;
+    margin: 50px auto;
+    border-radius: 16px;
+    /* text-align: center; */
+}
+.btn{
+    background-color: white;
+    border: none;
+    padding: 16px 30px;
+    font-size: 16px;
+    border-radius: 60px;
+}
+
+.login{
+    width: 340px;
+    margin: 140px auto;
+    text-align: center;
+}
+.input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid gray;
+    
+    /* border-radius: 6px; */
+}
+.login-btn{
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+}
+.logo{
+    margin-bottom: 30px;
+}
+/* box-sizing: border-box; ensures that the content does not go out of the parent element
+because of padding */
+
+.card{
+    width: 270px;
+    margin: 60px auto;
+    font-family: sans-serif;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.card-body{
+    padding: 10px;
+}
+.footer{
+    border-top: 1px solid lightgray;
+}
