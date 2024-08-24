@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "League Spartan", sans-serif;
+}
+
+#header1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+#header1 button{
+    border-style: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-family: "League Spartan", sans-serif;
+    color: black;
+}
+
+.logo{
+    margin-left: 100px;
+}
+.logo img{
+    height: 50px;
+    width: 110px;
+    margin-top: 15px;
+}
+
+.headerbtn{
+    display: flex;
+    margin-left: 450px;
+    align-items: center;
+}
+#header1 .headerbtn button{
+    font-size: 20px;
+    color: rgb(82, 80, 80);
+    padding: 10px;
+    transition: 0.3ms;
+}
+
+.headerright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 250px;
+}
+.headerright .list{
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px;
+}
+.headerright button{
+    font-size: 15px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin-right: 15px; 
+    padding: 10px;
+    transition: 0.3ms;
+    
+}
+.headerright .list button{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header1 .headerbtn button:hover{
+    cursor: pointer;
+    color: black;
+    border: 1px solid #f6f7f6;
+    background-color: #f6f7f6;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#header1 .headerright button:hover{
+    cursor: pointer;
+    border: 1px solid #f6f7f6;
+    background-color: #f6f7f6;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 15px; 
+}
+
+#header1 .headerright .list button:hover{
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+    border: 1px solid transparent;
+}
+
+#header1 .headerright .list:hover{
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
