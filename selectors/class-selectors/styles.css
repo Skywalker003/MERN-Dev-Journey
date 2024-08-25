@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    background-color: rgb(250, 242, 232);
+}
+
+.main-title{
+    font-family: sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+    color: rgb(2, 172, 172);
+}
+
+.tagline{
+    font-family: sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    color: rgb(62, 201, 201);
+}
+.featured-books{
+    padding: 20px 20px;
+    width: 300px;
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 14px;
+    border: 1px solid transparent;
+    
+}
+
+.box{
+    display: flex;
+}
+
+.contact{
+    padding: 20px 20px;
+    width: 300px;
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 14px;
+    border: 1px solid transparent;
+}
+
+.book-title{
+    font-family: sans-serif;
+}
+
+.contact-info{
+    font-family: sans-serif;
+}
