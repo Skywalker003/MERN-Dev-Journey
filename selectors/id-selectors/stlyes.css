@@ -1,0 +1,54 @@
+#header{
+    background-color: rgb(64, 191, 233);
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+#name{
+    font-size: xx-large;
+}
+
+#About{
+    background-color: rgb(182, 233, 64);
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+#About-title{
+    color: rgb(18, 137, 3);
+    font-size: 35px;
+}
+
+#About-description{
+    font-size: large;
+}
+
+#Projects{
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+#Project-title{
+    color: rgb(200, 126, 42);
+    font-size: 35px;
+}
+
+#Project1 ,#Project2{
+    font-size: large;
+}
+
+
+#footer{
+    background-color: rgb(248, 118, 216);
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+#contact{
+    font-size: large;
+}
