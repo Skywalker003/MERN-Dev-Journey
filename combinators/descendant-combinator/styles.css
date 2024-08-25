@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Recipes{
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+#Recipes .Recipe-title{
+    color: rgb(222, 135, 5);
+    font-size: 25px;
+}
+
+#Recipes .Recipe{
+    font-size: 25px;
+}
+
+#Recipes h3{
+    font-size: 35px;
+}
+
+#Reviews{
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+#Reviews .Review-title{
+    color: rgb(222, 135, 5);
+    font-size: 25px;
+}
+
+#Reviews .Review{
+    font-size: 25px;
+}
+
+#Reviews h3{
+    font-size: 35px;
+}
