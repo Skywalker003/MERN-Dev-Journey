@@ -1,0 +1,26 @@
+#news{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.articles{
+    border-bottom: 1px solid #b2baba;
+    padding: 10px;
+}
+
+.articles h3{
+    color: #3538db;
+}
+
+.articles p{
+    font-size: 16px;
+}
+
+.articles p.author{
+    font-weight: bold;
+    color: rgb(2, 101, 132);
+}
+/*adjacent siblings*/
+.articles .author + p{
+    color: rgb(172, 8, 184);
+}
