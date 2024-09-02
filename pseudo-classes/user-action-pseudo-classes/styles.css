@@ -1,57 +1,66 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #fefdfd;
+    font-family: sans-serif;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    color: #006726;
 }
 
-#blogs{
-    width: 80%;
-    margin: auto;
-    padding: 30px;
-    background-color: #f8f9f9;
-    border-radius: 14px;
-    box-shadow: 0px 0px 12px #d5d8dc;
+#signup-box{
+    width: 400px;
+    margin: 200px auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #fcf3f3;
+    box-shadow: 2px 6px 24px #333232;
 }
 
-#blogs p{
+h1{
+    font-size: 40px;
+}
+
+p{
     font-size: 20px;
 }
 
-.related-articles {
-    background-color: #ecf0f1;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
+.input-group{
+    margin: 20px 0px;
 }
 
-.related-articles h2 {
-    font-size: 25px;
-    margin-bottom: 20px;
+label{
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
-.related-articles li {
-    font-size: 20px;
-    margin-bottom: 20px;
-    list-style: none;
-}
-/*
-.related-articles a {
-    color: #ff0101;
-}
-*/
-.related-articles a:link {
-    color: #ff0101;
+input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0px 20px;
+    border: none;
+    background-color: #fffbfb;
+    border-radius: 6px;
 }
 
-.related-articles a:visited {
-    color: #034693;
+input:hover{
+    background-color: #e3e0e0ed;
 }
 
-.related-articles a:hover {
-    color: #9400fd;
-    border-bottom: 3px solid #9400fd;
+input:focus{
+    background-color: #e3e0e0ed;
 }
 
-.related-articles a:active {
-    color: #034693;
-    border-bottom: 3px solid #034693;
+button{
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #81ecec;
+    color: #fffbfb;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3ef4f4;
 }
