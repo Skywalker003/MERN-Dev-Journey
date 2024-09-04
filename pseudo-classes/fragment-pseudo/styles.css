@@ -1,0 +1,79 @@
+body{
+    background-color: #f8dcb8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 35px;
+    padding: 30px;
+    margin: 0px;
+}
+
+#recipe{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgb(101, 100, 100);
+}
+
+header{
+    font-size: 30px;
+    text-align: center;
+    color: #a96000;
+}
+
+.image img{
+    border-radius: 8px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.time-container{
+    text-align: center;
+    font-style: italic;
+}
+
+.Instructions h3, .ingredients h3{
+    color: #a96000;
+    font-size: 30px;
+}
+
+.note {
+    font-size: 20px;
+    text-align: center;
+    background-color: #dbb88aa7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*pseudo element*/
+header h1::before{
+    content: "🧁";
+}
+
+header h1::after{
+    content: "🧁";
+}
+
+.ingredients li::marker{
+    content: "🍽️";
+}
+
+.note::before{
+    content:"🍪";
+    font-weight: bolder;
+}
+
+
+::selection{
+    background-color: #e9bf88;
+    color: #8b5104;
+}
+
+::-moz-selection{
+    background-color: #e9bf88;
+    color: #8b5104;
+}
+
+::-webkit-selection{
+    background-color: #e9bf88;
+    color: #8b5104;
+
+}
