@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(235, 236, 238);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    margin: 0;
+}
+
+#container{
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    background-color: bisque;
+    padding:40px;
+}
+
+.side-content{
+    float: right;
+    width: 30%;
+    padding: 10px 20px;
+    background-color: #f7e3cb;
+    font-size: 30px;
+}
+.side-content h2{
+    color: #ae6a16;
+}
+
+#coffee-article{
+    font-size: 30px;
+    width: 68%;
+    padding: 1%;
+}
+
+/*typograpical pseudo elements*/
+
+.title::first-letter{
+    font-size: 90px;
+    padding: 2px;
+    color: #ae6a16;
+}
+
+.intro::first-letter{
+    font-size: 50px;
+    padding: 2px;
+}
+
+.content::first-line{
+    color: rgb(145, 145, 3);
+}
