@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+#title{
+    text-align: center;
+    background-color: rgba(4, 176, 176, 0.823);
+    font-size: 40px;
+    padding: 20px;
+    margin: 0;
+}
+
+nav{
+    text-align: center;
+    background-color: #d6e5e595;
+    padding: 14px;
+}
+
+nav a{
+    font-size: 18px;
+    margin: 15px;
+    
+}
+
+#about, #projects, #contact{
+    padding:1px 20px;
+    font-size: 20px;
+}
+
+button{
+    padding: 7px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    right: 0;
+}
+
+footer{
+    margin: 0px;
+    text-align: center;
+    padding: 9px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(242, 242, 242);
+    background-color: #474949;
+}
