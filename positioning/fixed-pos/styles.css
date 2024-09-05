@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.fixed-nav{
+    
+    position: fixed;
+    text-align: center;
+    background-color: #262727;
+    padding: 14px;
+    width: 100%;
+}
+nav a{
+    font-size: 18px;
+    margin: 15px;
+    color: aliceblue;
+}
+
+#about h2{
+    padding-top: 50px;
+}
+#about, #projects, #contact{
+    padding:1px 20px;
+    font-size: 20px;
+}
+
+button{
+    margin: 20px;
+    padding: 7px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+footer{
+    margin: 0px;
+    text-align: center;
+    padding: 9px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(242, 242, 242);
+    background-color: #474949;
+}
