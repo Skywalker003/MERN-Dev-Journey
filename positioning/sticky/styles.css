@@ -18,7 +18,7 @@ body{
 
 .fixed-nav{
     position: sticky;
-    top: 0;
+    top: -1px;
     text-align: center;
     background-color: #262727;
     padding: 14px;
