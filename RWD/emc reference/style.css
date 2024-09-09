@@ -1,0 +1,122 @@
+/*
+@media screen and (max-width:320px){
+    body{
+        background-color: rgb(0, 173, 231);
+    }
+}
+
+@media screen and (min-width:321px){
+    body{
+        background-color: rgb(0, 231, 62);
+    }
+}
+
+@media screen and (min-width:376px){
+    body{
+        background-color: rgb(233, 70, 138);
+    }
+}
+
+@media screen and (min-width:426px){
+    body{
+        background-color: rgb(216, 231, 0);
+    }
+}
+
+@media screen and (min-width:769px){
+    body{
+        background-color: rgb(231, 100, 0);
+    }
+}
+
+@media screen and (min-width:1025px){
+    body{
+        background-color: rgb(123, 0, 231);
+    }
+}  
+*/
+
+
+/*  reference
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block{
+    background-color: aqua;
+    margin: 5px;
+    height: 100px;
+    flex-basis: 20%;
+}
+
+@media screen and (max-width:800px) {
+    .block{
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .block{
+        flex-basis: 100%;
+    }
+}
+
+*/
+
+/* task */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block1{
+    background-color: rgb(119, 192, 46);
+    margin: 5px;
+    height: 150px;
+    flex-basis: 100%;
+}
+
+.set2{
+    background-color: rgb(4, 131, 186);
+    margin: 5px;
+    height: 210px;
+    flex-basis: 32%;
+}
+
+.set3{
+    background-color: rgb(101, 106, 108);
+    margin: 5px;
+    height: 125px;
+    flex-basis: 24%;
+}
+
+@media screen and (max-width:800px) {
+    .set2{
+        flex-basis: 100%;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .set3{
+        flex-basis: 48%;
+       
+    }
+}
+
+@media screen and (max-width:600px) {
+    .set2{
+        flex-basis: 100%;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .set3{
+        flex-basis: 100%;
+    }
+}
