@@ -51,9 +51,9 @@ add()
 var factor = "vijay"
 var fplayer = "dhoni"
 var fmovie = "theri"
-function favourite(){
-    console.log("favourite actor: " + factor)
-    console.log("favourite player: " + fplayer)
-    console.log("favourite movie: " + fmovie)
+function favorite(){
+    console.log("favorite actor: " + factor)
+    console.log("favorite player: " + fplayer)
+    console.log("favorite movie: " + fmovie)
 }
-favourite()
+favorite()
