@@ -1,6 +1,13 @@
-var FruitName = "orange"
-var count = 5
-var price = 10
-var total = count * price
-console.log(FruitName)
-console.log(total)
+/*
+function add(a,b){
+    console.log(a+b)
+}
+add(3,2)
+*/
+
+function area(length,breadth){
+    console.log("length is " + length )
+    console.log("breadth is " + breadth )
+    console.log("area is " + length*breadth )
+}
+area(2,5)
