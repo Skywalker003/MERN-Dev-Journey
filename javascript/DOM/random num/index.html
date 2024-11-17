@@ -7,12 +7,43 @@
 </head>
 <body>
     <h1>Guess the game</h1>
-    <input type="number" placeholder="Enter the num">
+    <input id="guessnum" type="number" placeholder="Enter the num">
     <button onclick="check()">check</button>
+    <p id="result">You are </p>
+    <p id="score">score:10</p>
 </body>
 </html>
 
 <script>
-    var a = Math.random()
-    console.log(math.floor(a))
+    var guessnumber = document.getElementById("guessnum")
+    var result = document.getElementById("result")
+    var score = document.getElementById("score")
+    
+    var tscore = 10
+    var random = Math.floor(Math.random()*10+1)
+
+    function check(){
+        
+        var guessednum = Number(guessnumber.value)
+
+        if (guessednum == random){
+            result.textContent = "You are right"
+            tscore = 10;
+            score.textContent = "score : " + tscore
+            resetGame()
+            alert("YOU WON....")
+        }else{
+            result.textContent = "You are wrong"
+            tscore -= 1
+            score.textContent = "score : " + tscore
+        }
+    }
+
+    function resetGame() {
+        // Reset score and generate a new random number
+        
+        random = Math.floor(Math.random() * 10 + 1);
+        
+    }
+
 </script>
