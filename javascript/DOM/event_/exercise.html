@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="num1" value="12">
+    <input type="number" id="num2" value="3">
+    <button type="submit" onclick="add()">submit</button>
+    <p id="result"></p>
+</body>
+</html>
+
+<script>
+    var box1 = document.getElementById("num1")
+    var box2 = document.getElementById("num2")
+    var result = document.getElementById("result")
+
+    console.log(box1.value)
+    console.log(box2.value)
+
+    var box1value = Number(box1.value)
+    var box2value = Number(box2.value)
+
+    function add(){
+    var total = box1value + box2value
+    console.log(total)
+}
+</script>
