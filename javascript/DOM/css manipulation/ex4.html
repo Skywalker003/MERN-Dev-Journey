@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 4</title>
+</head>
+<body>
+    <h1 id="text"></h1>
+    <button id="btn1" onclick="display(event)">john</button>
+    <button id="btn2" onclick="display(event)">hari</button>
+    <button id="btn3" onclick="display(event)">praveen</button>
+
+    <script>
+        var text = document.getElementById("text")
+        
+        function display(event){
+            text.textContent = event.target.textContent
+        }
+
+    </script>
+
+</body>
+</html>

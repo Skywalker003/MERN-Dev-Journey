@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex 1</title>
+</head>
+<body>
+    <input type="text" id="inputbox" onkeyup=live()>
+    <h1 id="result"></h1>
+
+    <script>
+        var input = document.getElementById("inputbox")
+        var dresult = document.getElementById("result")
+
+        function live(){
+            dresult.textContent = input.value //for input we dont use textcontent
+            console.log(dresult)
+        }
+    </script>
+
+</body>
+</html>

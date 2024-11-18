@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 5</title>
+
+    <style>
+        h1{
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 onclick="display(event)" id="one">one</h1>
+    <h1 onclick="display(event)" id="two">two</h1>
+    <h1 onclick="display(event)" id="three">three</h1>
+    <h1 onclick="display(event)" id="four">four</h1>
+    <h1 onclick="display(event)" id="five">five</h1>
+    <h1 onclick="display(event)" id="six">six</h1>
+
+    <script>
+        var one = document.getElementById("one")
+        var two = document.getElementById("two")
+        var three = document.getElementById("three")
+        var four = document.getElementById("four")
+        var five = document.getElementById("five")
+        var six = document.getElementById("six")
+        
+        function display(event){
+            event.target.remove()
+        }
+
+    </script>
+
+</body>
+</html>
