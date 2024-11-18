@@ -1,0 +1,44 @@
+<style>
+    body{
+        text-align: center;
+     }
+
+    div{
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        margin: 10px auto;
+        transition: 2s;
+    }
+
+    button{
+        font-size: large;
+        font-weight: 550;
+        padding: 10px 20px;
+        background-color: bisque;
+        border-radius: 24px;
+        cursor: pointer;
+    }
+
+    .widthmax{
+        width: 900px;
+    }
+
+</style>
+
+
+
+    <h1>change colour by clicking on the button</h1>
+    <div id="box"></div>
+    <button onclick="change()">change</button>
+
+<script>
+    var colorbox = document.getElementById("box");
+    function change(){
+        colorbox.style.backgroundColor = "blue";
+        //colorbox.setAttribute("class", "widthmax")
+        colorbox.classList.add("widthmax");
+    }
+</script>
+
+
