@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 class="ok">one</h1>
+    <h1 class="ok">two</h1>
+    <h1 class="ok">three</h1>
+
+    <!--querySelector it selects only first element-->
+    <!--
+    <script>
+        var select = document.querySelector(".ok")
+        console.log(select)
+    </script>
+    -->
+
+    <!--querySelectorAll it selects all elements-->
+    <!--but it select whole node list 
+    so we use array and loop to select each element-->
+    <script>
+        var select = document.querySelectorAll(".ok")
+        //console.log(select)
+        for(i=0;i<select.length;i++){
+            console.log(select[i].textContent)
+        }
+
+    </script>
+
+</body>
+</html>
+
+<!-- 
+other ways are 
+
+quertSelector
+querySelectorAll
+getElementById
+getElementsByClassName
+getElementsByTagName
+
+-->

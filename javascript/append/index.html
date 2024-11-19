@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 2</title>
+
+</head>
+<body>
+    <button onclick="add()">Add Hello</button>
+    <div id="result"></div>
+
+    <script>
+        var dresult = document.getElementById("result")
+
+        function add(){
+            var text = document.createElement("h1")
+            text.textContent = "Hello"
+            dresult.append(text)
+        }
+    </script>
+
+</body>
+</html>
