@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT FORM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>STUDENT FORM</h1>
+    </header>
+
+    <main>
+        <section class="input-container">
+            <form id="studentForm">
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" id="name" name="name"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Age</td>
+                        <td><input type="number" id="age" name="age"></td>
+                    </tr>
+
+                    <tr>
+                        <td>gender</td>
+                        <td>
+                            <input type="radio" value="male" id="male" name="male" required>
+                            <label for="male">Male</label>
+                            <input type="radio" value="female" id="female" name="female" required>
+                            <label for="female">female</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>course</td>
+                        <td>
+                            <select name="course" id="course" required>
+                                <option value="1">JAVASCRIPT</option>
+                                <option value="2">HTML</option>
+                                <option value="3">CSS</option>
+                                <option value="4">REACT</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>E-mail</td>
+                        <td><input type="email" id="email" name=" email" required></td>
+                    </tr>
+
+                </table>
+                <button type="submit" id="savebtn">Save</button>
+            </form>
+        </section>
+
+        <section class="output-container">
+            <table class="output-table" id="studentTable">
+                <tr>
+                    <th>NAME</th>
+                    <th>AGE</th>
+                    <th>COURSE</th>
+                    <th>GENDER</th>
+                    <th>EMAIL</th>
+                    <th>ACTION</th>
+                </tr>
+                <!--using js to display data-->
+
+            </table>
+        </section>
+
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
