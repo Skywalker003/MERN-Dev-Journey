@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>sri</h1>
+        <h1>raj</h1>
+    </div>
+
+    <script>
+        var names = document.querySelector("div")
+
+        var greet = document.createElement("h1")
+        greet.innerHTML = "hi"
+
+        names.insertAdjacentElement("beforebegin",greet)
+
+    </script>
+</body>
+</html>
+    
+<!--
+types
+1. beforebegin  // before div
+2. afterbegin   // inside div at start
+3. beforeend    // inside div at end
+4. afterend     // afer div
+-->
