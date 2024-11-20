@@ -1,0 +1,56 @@
+<!-- normal alert using onclick funtion
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <button id="btn" onclick="alertmessage()">click this</button>
+
+
+    <script>
+        var button = document.getElementById("btn");
+
+        function alertmessage() {
+            alert("hii chellam")
+        }
+    </script>
+
+</body>
+</html>
+
+-->
+
+<!--using event listener-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <button id="btn">click this</button>
+
+
+    <script>
+        var button = document.getElementById("btn");
+
+        button.addEventListener("click",function(){
+            alert("hii chellam")
+        })
+
+        button.addEventListener("mouseover",function(){
+            alert("mouse over")
+        })
+
+    </script>
+
+</body>
+</html>
