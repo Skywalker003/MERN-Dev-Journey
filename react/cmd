@@ -1,0 +1,131 @@
+PS C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo> npm init react-app .
+
+> npx
+> create-react-app .
+
+
+Creating a new React app in C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1323 packages in 38s
+
+266 packages are looking for funding
+  run `npm fund` for details
+
+Installing template dependencies using npm...       
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: a_demo@0.1.0
+npm error Found: react@19.0.0
+npm error node_modules/react
+npm error   react@"^19.0.0" from the root project   
+npm error
+npm error Could not resolve dependency:
+npm error peer react@"^18.0.0" from @testing-library/react@13.4.0
+npm error node_modules/@testing-library/react       
+npm error   @testing-library/react@"^13.0.0" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\srivi\AppData\Local\npm-cache\_logs\2025-01-03T15_34_50_139Z-eresolve-report.txt     
+npm error A complete log of this run can be found in: C:\Users\srivi\AppData\Local\npm-cache\_logs\2025-01-03T15_34_50_139Z-debug-0.log
+`npm install --no-audit --save @testing-library/jest-dom@^5.14.1 @testing-library/react@^13.0.0 @testing-library/user-event@^13.2.1 web-vitals@^2.1.0` failed
+PS C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo> npm start
+
+> a_demo@0.1.0 start
+> react-scripts start
+
+(node:3416) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where th
+Starting the development server...
+
+One of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it may break at any time.
+
+babel-preset-react-app is part of the create-react-app project, which
+is not maintianed anymore. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-p
+Failed to compile.
+
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+
+webpack compiled with 1 error
+
+
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+
+webpack compiled with 1 error
+
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+
+webpack compiled with 1 error
+
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+
+webpack compiled with 1 error
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo\src'
+
+webpack compiled with 1 error
+
+
+
+webpack compiled with 1 error
+
+
+webpack compiled with 1 error
+
+webpack compiled with 1 error
+
+webpack compiled with 1 error
+webpack compiled with 1 error
+
+webpack compiled with 1 error
+
+
+
+webpack compiled with 1 error
+
+webpack compiled with 1 error
+
+webpack compiled with 1 error
+webpack compiled with 1 error
+webpack compiled with 1 error
+webpack compiled with 1 error
+webpack compiled with 1 error
+webpack compiled with 1 error
+webpack compiled with 1 error
+webpack compiled with 1 error
+webpack compiled with 1 error
+PS C:\Users\srivi\OneDrive\Documents\GitHub\MERN-Dev-Journey\react\a_demo> npm install --legacy-peer-deps
+
+removed 1 package, and audited 1323 packages in 4s
+Compiled successfully!
+
+You can now view a_demo in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.8:3000
+
+Note that the development build is not optimized.   
+To create a production build, use npm run build.    
+
+webpack compiled successfully
