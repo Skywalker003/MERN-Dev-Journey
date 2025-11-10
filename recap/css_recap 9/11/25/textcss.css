@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+div{
+    width: 380px;
+    margin: 10px;
+    line-height: 25px;
+}
+p{
+    margin: 0px 0px;
+}
+.view{
+    margin-bottom: 10px;
+}
+.name{
+    margin-bottom: 10px;
+}
