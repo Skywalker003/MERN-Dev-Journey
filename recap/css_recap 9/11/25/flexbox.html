@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .con{
+            display: flex;
+            margin-top: 20px;
+        }
+        .div1{
+            background-color: aqua;
+        }
+        .div2{
+            background-color: rgb(0, 255, 195);
+        }
+        .div1b{
+            background-color: aqua;
+            width: 100px;
+        }
+        .div2b{
+            background-color: rgb(0, 255, 195);
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="con">
+            <div class="div1">div 1</div>
+            <div class="div2">
+                <p>dad</p>
+                <p>edfw</p>
+            </div>
+        </div>
+        <div class="con">
+            <div class="div1b">
+                <p>100px</p>
+            </div>
+            <div class="div2b">
+                <p>flex:1</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
