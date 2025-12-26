@@ -46,7 +46,7 @@ export default function Footer(){
             </div>
 
             <div className="footer-bottom">
-                <p>© 2025 Web_Dev. All rights reserved.</p>
+                <p>© 2025 Web_Dev. All rights reserved by sri vikas.</p>
             </div>
             
         </footer>

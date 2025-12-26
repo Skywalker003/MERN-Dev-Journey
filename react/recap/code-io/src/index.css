@@ -23,19 +23,62 @@ button{
 nav{
   margin-bottom: 30px;
   border-bottom: white 1px solid;
+  padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: rgba(99, 99, 99, 0.3); 
+  backdrop-filter: blur(10px);
+  font-size: 1.5rem;
+  border-radius: 8px;
+}
+.logo{
+  font-size: 1.6rem;
+}
+.login{
+  font-size: 1.3rem;
+  padding: 8px 20px;
+}
+
+.card-container{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card{
+  max-width: 400px;
+  border: white 1px solid;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.inner-img{
+  width: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.inner-text{
+  text-align: left;
+}
+.inner-text h3{
+  text-align: center;
 }
 
 footer{
   border-top: white 1px solid;
   margin-top: 30px;
-  padding-top: 20px;
+  padding: 10px 0px;
 }
 .footer-top{
   display: flex;
   text-align: left;
+  align-items: center;
 }
 .footer-bottom{
   border-top: white 1px solid;
