@@ -42,7 +42,7 @@ const courses = [
     title: "NODE JS",
     image: nodejs,
     description:
-      "Learn Node.js to run JavaScript on the serverand build backend applications, handle requests, then create simple APIs.",
+      "Learn Node.js to run JavaScript on the server and build backend applications, handle requests, then create simple APIs.",
     difficulty: "Medium",
     level: "Intermediate",
   },

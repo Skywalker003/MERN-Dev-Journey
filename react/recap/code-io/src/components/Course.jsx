@@ -11,17 +11,19 @@ import Card from "./Card";
 
 export default function Course(){
   return(
-      <div className= "card-container">
-          {courses.map((course) => (
-              <Card
-                  key={course.id}
-                  title={course.title}
-                  image={course.image}
-                  description={course.description}
-                  difficulty={course.difficulty}
-                  level={course.level}
-              />
-          ))}
-      </div>
+    <div className="card-container">
+      {courses.map(
+        ({ id, title, image, description, difficulty, level }) => ( //destructured instead of (course) and then course.id, course.title etc
+          <Card
+            key={id}
+            title={title}
+            image={image}
+            description={description}
+            difficulty={difficulty}
+            level={level}
+          />
+        )
+      )}
+    </div>
   )
 }
