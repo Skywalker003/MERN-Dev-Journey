@@ -33,6 +33,7 @@ nav{
   backdrop-filter: blur(10px);
   font-size: 1.5rem;
   border-radius: 8px;
+  z-index: 100;
 }
 .logo{
   font-size: 1.6rem;
@@ -51,10 +52,20 @@ nav{
 }
 
 .card{
-  max-width: 400px;
+  width: 400px;
   border: white 1px solid;
   border-radius: 8px;
   padding: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.update{
+  padding: 50% 0;
 }
 
 .inner-img{
@@ -62,6 +73,11 @@ nav{
   height: 250px;
   object-fit: cover;
   border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .inner-img {
+  transform: scale(1.2);
 }
 
 .inner-text{

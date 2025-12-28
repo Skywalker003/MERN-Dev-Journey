@@ -9,6 +9,7 @@ const courses = [
       "Learn the foundation of web development by building structured and semantic web pages using HTML. Perfect for beginners starting their frontend journey.Beginner",
     difficulty: "Easy",
     level: "Beginner",
+    shown: true,
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const courses = [
       "Learn how to style and design websites using CSS. Work with layouts, colors, fonts, and responsive design to create visually appealing pages.",
     difficulty: "Easy",
     level: "Beginner",
+    shown: true,
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ const courses = [
       "Learn JavaScript fundamentals to make websites interactive. Understand variables, functions, conditions, loops, and DOM manipulation.",
     difficulty: "Medium",
     level: "Beginner → Intermediate",
+    shown: true,
   },
   {
     id: 4,
@@ -36,6 +39,7 @@ const courses = [
       "Learn React to build fast and reusable user interfaces. Understand components, props, state, and modern frontend development practices.",
     difficulty: "Medium",
     level: "Intermediate",
+    shown: true,
   },
   {
     id: 5,
@@ -45,6 +49,7 @@ const courses = [
       "Learn Node.js to run JavaScript on the server and build backend applications, handle requests, then create simple APIs.",
     difficulty: "Medium",
     level: "Intermediate",
+    shown: true,
   },
   {
     id: 6,
@@ -54,6 +59,7 @@ const courses = [
       "Learn Express.js to build RESTful APIs and backend services. Learn routing, middleware, and server-side application structure.",
     difficulty: "Medium",
     level: "Intermediate",
+    shown: true,
   },
 ];
 

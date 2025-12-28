@@ -13,7 +13,7 @@ export default function Course(){
   return(
     <div className="card-container">
       {courses.map(
-        ({ id, title, image, description, difficulty, level }) => ( //destructured instead of (course) and then course.id, course.title etc
+        ({ id, title, image, description, difficulty, level, shown }) => ( //destructured instead of (course) and then course.id, course.title etc
           <Card
             key={id}
             title={title}
@@ -21,6 +21,7 @@ export default function Course(){
             description={description}
             difficulty={difficulty}
             level={level}
+            shown={shown}
           />
         )
       )}
