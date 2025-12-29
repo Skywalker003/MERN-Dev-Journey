@@ -1,6 +1,6 @@
 import './App.css'
 import  Navbar  from './components/Navbar.jsx'
-import Course from './components/course.jsx'
+import Course from './components/Course.jsx'
 import Footer from './components/Footer.jsx'
 
 function App() {
