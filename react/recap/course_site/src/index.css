@@ -41,6 +41,7 @@ nav{
 .login{
   font-size: 1.3rem;
   padding: 8px 20px;
+  background-color: #2424244f;
 }
 
 .card-container{
@@ -85,6 +86,15 @@ nav{
 }
 .inner-text h3{
   text-align: center;
+}
+
+.enroll-btn{
+  margin: 0;
+  background-color: #ffffff00;
+  transition: transform 0.3s ease;
+}
+.hide-btn{
+  background-color: #434343;
 }
 
 footer{

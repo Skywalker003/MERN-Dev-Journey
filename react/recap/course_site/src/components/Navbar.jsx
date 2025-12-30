@@ -6,7 +6,7 @@ export default function Navbar(){
             <a href="courses">Courses</a>
             <a href="about">About</a>
             <a href="contact">Contact</a>
-            <button className="login">login</button>
+            <button className="login">Log in</button>
         </nav>
     )
 }

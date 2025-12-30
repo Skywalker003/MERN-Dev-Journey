@@ -8,8 +8,16 @@ import express from "../assets/express.png";
 
 import { courses } from "../data/coursesData";
 import Card from "./Card";
+import React from "react";
 
 export default function Course(){
+
+  const [courseList, setCourseList] = React.useState(courses);
+  
+  function handleHide(id){
+    setCourseList([...courseList].filter((course) => course.id != id));
+  }
+
   const levelOrder = {
   Beginner: 1,
   "Beginner → Intermediate": 2,
@@ -18,7 +26,7 @@ export default function Course(){
 };
   return(
     <div className="card-container">
-      {[...courses]
+      {[...courseList]
       .sort(
         (a, b) => levelOrder[a.level] - levelOrder[b.level]
       )
@@ -33,6 +41,8 @@ export default function Course(){
             difficulty={difficulty}
             level={level}
             shown={shown}
+            fun={handleHide}
+            id={id}
           />
         )
       )}
