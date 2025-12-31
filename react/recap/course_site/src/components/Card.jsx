@@ -5,7 +5,7 @@ export default function Card(props){
   const [isEnrolled, setIsEnrolled] = React.useState(false);
   //const [hide, setHide] = React.useState(true);
 
-  function handleClick(){
+  function handleEnroll(){
       setIsEnrolled(true);
   }
   /*function hidec(){
@@ -21,8 +21,8 @@ export default function Card(props){
                   <p>{props.description}</p>
                   <p>{props.difficulty}</p>
                   <p>{props.level}</p>
-                  <button className="enroll-btn" onClick={handleClick}>{isEnrolled ? "Enrolled" : "Enroll Now"}</button>
-                  <button className="hide-btn" onClick={() => props.fun(props.id)/* hidec*/}>Not Interested</button>
+                  <button className="enroll-btn" onClick={handleEnroll}>{ isEnrolled ? "Enrolled" : "Enroll Now"}</button>
+                  {!isEnrolled && <button className="hide-btn" onClick={() => props.hide(props.id)/* hidec */}>Not Interested</button>}
               </div> 
           </div>
       )

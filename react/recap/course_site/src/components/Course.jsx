@@ -6,13 +6,22 @@ import nodejs from "../assets/nodejs.png";
 import express from "../assets/express.png";
 */
 
-import { courses } from "../data/coursesData";
+//import { courses } from "../data/coursesData";
 import Card from "./Card";
 import React from "react";
 
 export default function Course(){
 
-  const [courseList, setCourseList] = React.useState(courses);
+  const [courseList, setCourseList] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch("http://localhost:3000/courses")
+      .then((response) => response.json())
+      .then((data) => setCourseList(data));
+  }, []);
+  if (!courseList) {
+    return <div>Loading...</div>;
+  }
   
   function handleHide(id){
     setCourseList([...courseList].filter((course) => course.id != id));
@@ -41,8 +50,8 @@ export default function Course(){
             difficulty={difficulty}
             level={level}
             shown={shown}
-            fun={handleHide}
-            id={id}
+            hide={handleHide}
+            id={id}//it seems we cant use key prop so we pass id prop to use 
           />
         )
       )}

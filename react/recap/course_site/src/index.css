@@ -83,6 +83,7 @@ nav{
 
 .inner-text{
   text-align: left;
+  transition: transform 0.3s ease;
 }
 .inner-text h3{
   text-align: center;
