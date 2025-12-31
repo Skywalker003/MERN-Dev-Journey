@@ -9,23 +9,26 @@ import express from "../assets/express.png";
 //import { courses } from "../data/coursesData";
 import Card from "./Card";
 import React from "react";
+import useFetch from "./useFetch";
 
 export default function Course(){
 
-  const [courseList, setCourseList] = React.useState(null);
+   const { courseList, loading, error , hideCourse } = useFetch(
+    "http://localhost:3000/courses"
+  );
 
-  React.useEffect(() => {
-    fetch("http://localhost:3000/courses")
-      .then((response) => response.json())
-      .then((data) => setCourseList(data));
-  }, []);
-  if (!courseList) {
+  if (loading) {
     return <div>Loading...</div>;
   }
-  
-  function handleHide(id){
-    setCourseList([...courseList].filter((course) => course.id != id));
+
+  if (error) {
+    return <div>Error: {error}</div>;
   }
+  
+  
+  /*function handleHide(id){
+    setCourseList([...courseList].filter((course) => course.id != id));
+  }*/
 
   const levelOrder = {
   Beginner: 1,
@@ -50,7 +53,7 @@ export default function Course(){
             difficulty={difficulty}
             level={level}
             shown={shown}
-            hide={handleHide}
+            hide={hideCourse}
             id={id}//it seems we cant use key prop so we pass id prop to use 
           />
         )
