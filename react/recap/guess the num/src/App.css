@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input{
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  width: 97%;
+}
+
+.App{
+  text-align: left;
+  border: 1px solid whitesmoke;
+  padding: 20px 60px 30px 60px;
+  border-radius: 10px;
+}
