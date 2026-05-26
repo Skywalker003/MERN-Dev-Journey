@@ -1,7 +1,9 @@
 function Footer(){
     return (
-        <div className = "copy-right">
+        <footer className="copy-right">
             <p>Made with love by Myself</p>
-        </div>
+        </footer>
     )
 }
+
+export default Footer;

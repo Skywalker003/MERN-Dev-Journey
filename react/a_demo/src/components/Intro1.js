@@ -1,13 +1,13 @@
-function intro1() {
+function Intro1() {
     return (
-        <div className = "blog-post-intro">
-            <h2>i became a react developer!</h2>
+        <div className="blog-post-intro">
+            <h2>I became a React developer!</h2>
             <div>
-                <p>i completed the basic react course and ia, happy to anncounce that iam a junior react developer!</p>
-                <p class = "link">read more...</p>
+                <p>I completed the basic React course, and I am happy to announce that I am now a junior React developer.</p>
+                <p className="link">Read more...</p>
             </div>
         </div>
     )
 }
 
-export default intro1;
+export default Intro1;
