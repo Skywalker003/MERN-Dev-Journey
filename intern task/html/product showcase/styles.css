@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 24px;
+  background-color: #f5f5f5;
+  color: #222222;
+}
+
+h1 {
+  color: #ffffff;
+  background-color: #1a1a2e;
+  font-size: 36px;
+  border: 2px solid #4a4a8a;
+  padding: 12px;
+}
+
+p.product-desc {
+  color: #333333;
+  background-color: #fffde7;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  padding: 12px;
+}
+
+p.offer-text {
+  color: #b30000;
+  background-color: #fff3f3;
+  font-size: 15px;
+  border: 1px dashed #b30000;
+  padding: 10px 14px;
+  border-radius: 4px;
+  margin-top: 12px;
+}
+
+button.buy-btn {
+  color: #ffffff;
+  background-color: #1a1a2e;
+  font-size: 16px;
+  border: 2px solid #4a4a8a;
+  padding: 10px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+img {
+  width: 220px;
+  height: auto;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+h3 {
+  color: #1a1a2e;
+  border-bottom: 2px solid #4a4a8a;
+  padding-bottom: 4px;
+  margin-top: 28px;
+}
+
+ol, ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+dl dt {
+  font-weight: bold;
+  color: #1a1a2e;
+  margin-top: 8px;
+}
+dl dd {
+  margin-left: 16px;
+  color: #555555;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+th, td {
+  border: 1px solid #cccccc;
+  padding: 10px 14px;
+  text-align: left;
+}
+th {
+  background-color: #1a1a2e;
+  color: #ffffff;
+}
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+a {
+  color: #4a4a8a;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+input[type="submit"] {
+  margin-top: 16px;
+  padding: 10px 24px;
+  background-color: #1a1a2e;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+iframe {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.highlight-blue {
+  color: #1a52d4;
+  font-weight: bold;
+}
+.highlight-green {
+  color: #1a7a1a;
+  font-weight: bold;
+}
