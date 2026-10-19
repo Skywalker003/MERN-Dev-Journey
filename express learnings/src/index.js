@@ -1,3 +1,6 @@
+const { createUserValidationSchema } = require('./utils/validationSchema.js');
+const { checkSchema , matchedData , validationResult } = require('express-validator');
+
 const express = require('express');
 
 const app = express();
@@ -76,7 +79,7 @@ app.put('/api/users/:id', getUserIndexById, (req, res ) => {
     console.log(req.body);
     //const { params: { id, body }} = req;
 
-    //this is being handled by middleware so we dont need to do it here;
+    //this is being handled by middleware so we don't need to do it here;
     /*
     const id = parseInt(req.params.id);
 
@@ -117,12 +120,20 @@ app.delete('/api/users/:id', getUserIndexById, (req, res ) => {
     res.status(200).send({msg: 'user deleted successfully'});
 })
 
-app.post('/api/users', (req, res ) => {
+app.post('/api/users',checkSchema(createUserValidationSchema), (req, res ) => {
     console.log(req.body);
-    const { body } = req;
+    const result = validationResult(req);
+    console.log(result);
+    //console.log(req['express-validator#contexts']);
+    const  body  = matchedData(req);
     const newUser = {id: users[users.length - 1].id+1, ...body};
     users.push(newUser);
-    res.status(201).send({msg: 'User created successfully'});
+    if(result.isEmpty()){
+        res.status(201).send({msg: 'User created successfully'});
+    }
+    else{
+        res.status(400).send({msg: 'Validation failed', errors: result.array()});
+    }
 })
 
 app.listen(port, () => {
